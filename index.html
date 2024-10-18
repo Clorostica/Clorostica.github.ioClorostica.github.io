@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi pagina</title>
+    <title>Portfolio</title>
     <meta charset="utf8">
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
@@ -23,13 +23,13 @@
                     <a href="index.html" class="nav__links">Inicio</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">About</a>
+                    <a href="#section1" class="nav__links">About</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Experience</a>
+                    <a href="#section2" class="nav__links">Projects</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Projects</a>
+                    <a href="#section3" class="nav__links">Contact</a>
                 </li>
 
                 <img src="./img/circle.svg" class="nav__close">
@@ -53,9 +53,8 @@
             </figure>
         </section>
     </header>
-
  <main>
-    <div class="about__main">
+    <div class="about__main" id="section1">
             <div class="about__icons">
                 <svg class="svgicon"xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: #001A49;transform: ;msFilter:;"><path d="M20 17.722c.595-.347 1-.985 1-1.722V5c0-1.103-.897-2-2-2H5c-1.103 0-2 .897-2 2v11c0 .736.405 1.375 1 1.722V18H2v2h20v-2h-2v-.278zM5 16V5h14l.002 11H5z"></path></svg>
                 <h1 class="about__title">Designer</h1>
@@ -173,7 +172,7 @@
             </div>
                 <p class="questions__paragraph">Here are a few past design projects I've worked on. Want to see more?</p>
             </section>
-            <section class="projects_container container">
+            <section class="projects_container container" id="section2">
                 <div class="projects__main">
                         <img src="img/epica01.jpg" class="img_projects" alt="image" />
                         <img src="img/MARCA UPEOPLE04 copia.jpg" class="img_projects" alt="image" />
@@ -183,9 +182,11 @@
                         <img class="img1" src="img/sowltarot.jpg" class="img_projects" alt="image" height="280">
                 </div>
             </section>
-            <section class="form_container">
+            <section class="form_container" id="#section3">
                 <h1 class="subtitle">Let's collaborate</h1>
-                <p>Ready to work together? Fill out the form or book a discovery call</p>
+                <p class="form__paragraph">Ready to work together? Fill out the form or book a discovery call</p>
+                <a class="cta" href="contact.html">Get it touch
+                </a>
             </section>
 
 </main>
